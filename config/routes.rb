@@ -4,9 +4,12 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'layouts#index'
-  
-  get 'structures/structure_1', to: 'structures#structure_1'
+
   get 'headers/header_1', to: 'headers#header_1'
+
+  get 'structures/structure_1', to: 'structures#structure_1'
+
+  get 'footers/footer_1', to: 'footers#footer_1'
 
 
   # Example of regular route:
