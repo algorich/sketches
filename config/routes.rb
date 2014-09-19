@@ -11,6 +11,8 @@ Rails.application.routes.draw do
 
   get 'footers/footer_1', to: 'footers#footer_1'
 
+  get 'logins/login_1', to: 'logins#login_1'
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
